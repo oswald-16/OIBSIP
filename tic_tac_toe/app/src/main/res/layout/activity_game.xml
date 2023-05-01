@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".gameActivity"
+    android:background="#AFB42B">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_alignParentTop="true"
+        android:orientation="horizontal"
+        android:layout_above="@+id/llayout3">
+
+
+        <LinearLayout
+            android:id="@+id/llayout1"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:background="@drawable/black_box">
+
+            <TextView
+                android:id="@+id/txtN1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Person1"
+                android:textColor="#000"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:maxLines="1"/>
+            <ImageView
+                android:id="@+id/imgCross"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/cross_image"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:layout_gravity="center"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/llayout2"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:background="@drawable/black_box"
+            android:layout_marginStart="10dp">
+
+            <TextView
+                android:id="@+id/txtN2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Person2"
+                android:textColor="#000"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:maxLines="1"/>
+            <ImageView
+                android:id="@+id/imgCircle"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/circle_image"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:layout_gravity="center"/>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/llayout3"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="50dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="3">
+
+            <ImageView
+                android:id="@+id/grid1"
+                android:layout_width="0dp"
+                android:layout_height="115dp"
+                android:background="@drawable/whitebox"
+                android:layout_weight="1"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginStart="10dp"
+                android:padding="20dp"
+                android:adjustViewBounds="true"/>
+            <ImageView
+                android:id="@+id/grid2"
+                android:layout_width="0dp"
+                android:layout_height="115dp"
+                android:background="@drawable/whitebox"
+                android:layout_weight="1"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginStart="10dp"
+                android:padding="20dp"
+                android:adjustViewBounds="true"/>
+            <ImageView
+                android:id="@+id/grid3"
+                android:layout_width="0dp"
+                android:layout_height="115dp"
+                android:background="@drawable/whitebox"
+                android:layout_weight="1"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginStart="10dp"
+                android:padding="20dp"
+                android:adjustViewBounds="true"/>
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="3">
+
+            <ImageView
+                android:id="@+id/grid4"
+                android:layout_width="0dp"
+                android:layout_height="115dp"
+                android:background="@drawable/whitebox"
+                android:layout_weight="1"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginStart="10dp"
+                android:padding="20dp"
+                android:adjustViewBounds="true"/>
+            <ImageView
+                android:id="@+id/grid5"
+                android:layout_width="0dp"
+                android:layout_height="115dp"
+                android:background="@drawable/whitebox"
+                android:layout_weight="1"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginStart="10dp"
+                android:padding="20dp"
+                android:adjustViewBounds="true"/>
+            <ImageView
+                android:id="@+id/grid6"
+                android:layout_width="0dp"
+                android:layout_height="115dp"
+                android:background="@drawable/whitebox"
+                android:layout_weight="1"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginStart="10dp"
+                android:padding="20dp"
+                android:adjustViewBounds="true"/>
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="3">
+
+            <ImageView
+                android:id="@+id/grid7"
+                android:layout_width="0dp"
+                android:layout_height="115dp"
+                android:background="@drawable/whitebox"
+                android:layout_weight="1"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginStart="10dp"
+                android:padding="20dp"
+                android:adjustViewBounds="true"/>
+            <ImageView
+                android:id="@+id/grid8"
+                android:layout_width="0dp"
+                android:layout_height="115dp"
+                android:background="@drawable/whitebox"
+                android:layout_weight="1"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginStart="10dp"
+                android:padding="20dp"
+                android:adjustViewBounds="true"/>
+            <ImageView
+                android:id="@+id/grid9"
+                android:layout_width="0dp"
+                android:layout_height="115dp"
+                android:background="@drawable/whitebox"
+                android:layout_weight="1"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginStart="10dp"
+                android:padding="20dp"
+                android:adjustViewBounds="true"/>
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+</RelativeLayout>

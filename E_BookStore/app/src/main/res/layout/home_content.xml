@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:columnCount="3"
+        android:rowCount="3"
+        android:layout_margin="20dp">
+
+        <ImageView
+            android:id="@+id/book1"
+            android:layout_width="100dp"
+            android:layout_height="200dp"
+            android:src="@drawable/img_1"
+            android:layout_row="0"
+            android:layout_column="0"/>
+        <ImageView
+            android:id="@+id/book2"
+            android:layout_width="100dp"
+            android:layout_height="200dp"
+            android:src="@drawable/img_2"
+            android:layout_row="0"
+            android:layout_column="1"
+            android:layout_marginLeft="10dp"/>
+        <ImageView
+            android:id="@+id/book3"
+            android:layout_width="100dp"
+            android:layout_height="200dp"
+            android:src="@drawable/img_11"
+            android:layout_row="0"
+            android:layout_column="2"
+            android:layout_marginLeft="10dp"/>
+            /*......*/
+        <ImageView
+            android:id="@+id/book4"
+            android:layout_width="100dp"
+            android:layout_height="200dp"
+            android:src="@drawable/img_4"
+            android:layout_row="1"
+            android:layout_column="0"/>
+        <ImageView
+            android:id="@+id/book5"
+            android:layout_width="100dp"
+            android:layout_height="200dp"
+            android:src="@drawable/img_5"
+            android:layout_row="1"
+            android:layout_column="1"
+            android:layout_marginLeft="10dp"/>
+        <ImageView
+            android:id="@+id/book6"
+            android:layout_width="100dp"
+            android:layout_height="200dp"
+            android:src="@drawable/img_7"
+            android:layout_row="1"
+            android:layout_column="2"
+            android:layout_marginLeft="10dp"/>
+        /*...*/
+        <ImageView
+            android:id="@+id/book7"
+            android:layout_width="100dp"
+            android:layout_height="200dp"
+            android:src="@drawable/img_8"
+            android:layout_row="2"
+            android:layout_column="0"/>
+        <ImageView
+            android:id="@+id/book8"
+            android:layout_width="100dp"
+            android:layout_height="200dp"
+            android:src="@drawable/img_9"
+            android:layout_row="2"
+            android:layout_column="1"
+            android:layout_marginLeft="10dp"/>
+        <ImageView
+            android:id="@+id/book9"
+            android:layout_width="100dp"
+            android:layout_height="200dp"
+            android:src="@drawable/img_10"
+            android:layout_row="2"
+            android:layout_column="2"
+            android:layout_marginLeft="10dp"/>
+    </GridLayout>
+
+
+
+
+</LinearLayout>
